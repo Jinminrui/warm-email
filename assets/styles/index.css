@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.email {
+  margin: 50px 0;
+}
+
+.email .title {
+  text-align: center;
+  font-size: 20px;
+  color: #5f5e5e;
+  margin-bottom: 40px;
+}
+
+.email .title .full {
+  font-size: 24px;
+  color: rgb(221, 73, 73);
+}
+
+.tips {
+  text-align: center;
+  color: #676767;
+  font-size: 20px;
+  margin: 20px;
+}
+
+.small-title {
+  color: #676767;
+  text-align: center;
+}
+
+.weather-item {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 30px;
+  line-height: 30px;
+  margin: 10px;
+}
+
+.weather-item .day {
+  width: 15%;
+  text-align: center;
+}
+
+.weather-item .weather {
+  width: 25%;
+  text-align: center;
+}
+
+.weather-item .temperature {
+  width: 25%;
+  text-align: center;
+}
+
+.weather-item .wind {
+  width: 35%;
+  text-align: center;
+}
